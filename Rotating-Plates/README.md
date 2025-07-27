@@ -1,4 +1,4 @@
 ## 🌐 Live Demo
 
-🔗 [View Project](https://tejaschorge.github.io/Html-css-ui-library/Rotating-Plates/)
+🔗 [View Project](https://tejaschorge.github.io/Html-css-ui-library/Rotating-Plates)
 
