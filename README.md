@@ -8,6 +8,7 @@ A curated collection of creative HTML &amp; CSS projects and UI components - bui
 | No. | Project Title | Live Demo | Link |
 |-----|---------------|----------|------|
 | 1   | Solar-System | [View](https://tejaschorge.github.io/Html-css-ui-library/Solar-System) | [Project Link](./Solar-System) |
-| 2   | Watermelon | [View](https://tejaschorge.github.io/Html-css-ui-library/Watermelon) | [Project Link](./Watermelon) |
-| 3   | Rotating-Squares | [View](https://tejaschorge.github.io/Html-css-ui-library/Rotating-Squares) | [Project Link](./Rotating-Squares) |
-| 4   | Rotating-Plates | [View](https://tejaschorge.github.io/Html-css-ui-library/Rotating-Plates) | [Project Link](./Rotating-Plates) |
+| 2   | Solar-System | [View]() | [Project Link](./Windmill-animation) |
+| 3   | Watermelon | [View](https://tejaschorge.github.io/Html-css-ui-library/Watermelon) | [Project Link](./Watermelon) |
+| 4   | Rotating-Squares | [View](https://tejaschorge.github.io/Html-css-ui-library/Rotating-Squares) | [Project Link](./Rotating-Squares) |
+| 5   | Rotating-Plates | [View](https://tejaschorge.github.io/Html-css-ui-library/Rotating-Plates) | [Project Link](./Rotating-Plates) |
