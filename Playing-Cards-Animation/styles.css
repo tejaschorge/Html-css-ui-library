@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: #eee;
+}
+
+.card{
+    position: relative;
+    height: 20vmin;
+    counter-increment: card;
+    &:before{
+        top: 0;
+        left: 50%;
+        width: 16vmin;
+        height: 19vmin;
+        transform-origin: 50% 100%;
+        transform: translateX(-50%) rotate(calc((var(--i) * 15deg) - 30deg));
+        position: absolute;
+        content: counter(card);
+        border-radius: 1vmin;
+        border: 1px solid currentColor;
+        padding: .5vmin;
+        background-color: hsl(240deg, 10%, 10%);
+        transition: 200ms ease-out;
+    }
+}
+
+.box{
+    display: inline-grid;
+    counter-set: card 0;
+    grid-template-columns: repeat(5, 0);
+    gap: 0;
+    transition: 200ms ease-out;
+
+    &:hover{
+        grid-template-columns: repeat(5, 16vmin);
+        gap: 2vmin;
+
+        .card:before{
+            transform: translateX(-50%) rotate(0);
+        }
+    }
+}
+
+@keyframes fan{
+    from{
+        grid-template-columns: repeat(5, 16vmin);
+    }
+    to{
+        grid-template-columns: repeat(5, 0);
+    }
+}
